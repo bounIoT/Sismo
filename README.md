@@ -11,13 +11,24 @@ There are two different servers, one for handling earthquake signals, the other 
 get http://www.serverdomain.com/earthquake
 ```
 
+The request to send gyroscope data is of the format:
+
+
+```
+GET http://hello-node-noisy-mongoose.eu-gb.mybluemix.net/check HTTP/1.1" "\r\n"
+                        "Host: <host>" "\r\n"
+                        "Content-Length: <length>" "\r\n"
+                        "\r\n"
+                        {x: <x>, y:<y>, z:<z>}
+```
+
 ### Prerequisites
 
-ENC28J60 Ethernet Module
-Arduino Nano
-gy-50 l3g4200d Gyroscope
-2 LEDs
-8 Ohm 1 W Speaker
+ENC28J60 Ethernet Module, 
+Arduino Nano, 
+gy-50 l3g4200d Gyroscope, 
+2 LEDs, 
+8 Ohm 1 W Speaker.
 
 Arduino IDE with Ethercard.h installed.
 
@@ -69,7 +80,7 @@ Gyro:
 
 ## Flow Of Data
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/bounIoT/Sismo/blob/master/iot%20final.png)
 
 
 ## Special thanks to 
