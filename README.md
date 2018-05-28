@@ -10,6 +10,8 @@ There are two different servers, one for handling earthquake signals, the other 
 ```
 get http://www.serverdomain.com/earthquake
 ```
+The response will be 1 for alarm, 0 for no earthquake.
+
 
 The request to send gyroscope data is of the format:
 
