@@ -1,6 +1,6 @@
 # Sismo
 
-An Earthquake Alarm Prototype with Arduino Nano and ENC28J60 Ethernet Module, made for CMPE 493 IoT Course in Boğaziçi University.
+An Earthquake Alarm Prototype with Arduino Nano and ENC28J60 Ethernet Module, made for CMPE 490 IoT Course in Boğaziçi University.
 
 ## Getting Started
 
