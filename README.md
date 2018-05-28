@@ -27,6 +27,7 @@ Arduino IDE with Ethercard.h installed.
 The wiring should be as follows:
 
 Ethernet Module:
+
 |ENC28J60 Ethernet Module | Arduino Nano |
 | --- | --- |
 |SO| 	D12|
@@ -38,6 +39,7 @@ Ethernet Module:
 |SI|	D11|
 
 Gyro:
+
 | gy-50 l3g4200d Gyroscope | Arduino Nano |
 | --- | --- |
 |GND|	GND|
